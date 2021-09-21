@@ -1,0 +1,160 @@
+.logo {
+  object-fit: contain;
+  object-position: center;
+}
+
+.link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+  .link:hover {
+    opacity: .8;
+  }
+
+/* Page */
+.page {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+  .page__section {
+    WIDTH: 1440px;
+
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+    .page__section_theme_grey {
+      background-color: rgb(196, 196, 196);
+    }
+
+    .page__section_theme_dark {
+      background-color: black;
+    }
+
+    .page__section_content-align_center {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+.header {
+  padding: 30px 64px;
+  min-height: 724px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+  .header__logo,
+  .header__title,
+  .header__text {
+    z-index: 1;
+  }
+
+  .header__logo {
+    width: 83px;
+    height: 32px;
+  }
+
+  .header__title,
+  .header__text {
+    margin: 0;
+  }
+
+  .header__title {
+    max-width: 730px;
+    font-size: 102px;
+    line-height: .9;
+  }
+
+  .header__text {
+    max-width: 388px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .header__image {
+    height: 608px;
+  }
+
+  .header__square {
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+  }
+
+  .header__image,
+  .header__square {
+    position: absolute;
+    right: 0;
+  }
+
+  .header__image {
+    bottom: 0;
+  }
+
+  /* .header__square {
+    top: 0;
+  } */
+
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+  .description__article {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+    .article__title {
+      margin: 0;
+      width: 175px;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 1.2;
+      color: #2f80ed;
+    }
+    
+    .article__text {
+      width: 80%;
+    }
+
+    .article__paragraph {
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .article__paragraph:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .article__accent {
+      font-weight: bold;
+    }
+
+.practices {
+  padding-bottom: 100px;
+}
+
+.feynman {
+  padding-top: 50px;
+}
+
+.digits {
+  padding: auto 100px;
+}
+
+.footer {
+  padding: 60px 64px 40px;
+}
